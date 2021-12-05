@@ -46,18 +46,26 @@ public class LoadObject : MonoBehaviour
         if (fileInfo.Length > 0)
         {
             int x = 0;
-            foreach (var info in fileInfo)
+
+            StartCoroutine(Delay());
+            IEnumerator Delay()
             {
-                if (nameCheck.Contains(info.ToString()) != true)
+                foreach (var info in fileInfo)
                 {
-                    nameCheck.Add(info.ToString());
+                    //StartCoroutine(Delay());
+                    if (nameCheck.Contains(info.ToString()) != true)
+                    {
+                        nameCheck.Add(info.ToString());
 
-                    ImageLoader(info.ToString(), x, index);
+                        ImageLoader(info.ToString(), x, index);
 
-                    x++;
+                        x++;
+                    }
+                    Debug.Log(info);
+                    yield return new WaitForSeconds(2);
                 }
-                Debug.Log(info);
             }
+            
         }
     }
 
@@ -73,13 +81,8 @@ public class LoadObject : MonoBehaviour
         material[x] = Instantiate(testMat, transform.position, transform.rotation);
         material[x].mainTexture = tex;
 
-        StartCoroutine(Delay());
-
-        IEnumerator Delay()
-        {
-            yield return new WaitForSeconds(2);
-            SpawnObject(material[x], index);
-        }
+       
+        SpawnObject(material[x], index);
 
     }
 
@@ -93,6 +96,8 @@ public class LoadObject : MonoBehaviour
         obj.AddComponent<MeshRenderer>();
         obj.GetComponent<MeshRenderer>().material = mat;
     }
+
+
 
 
 }
