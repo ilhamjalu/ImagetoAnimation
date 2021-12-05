@@ -14,6 +14,8 @@ public class LoadObject : MonoBehaviour
     public Material testMat;
     public Material[] material;
 
+    float nextFire = 0.0f, fireRate = 0.8f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,7 +73,14 @@ public class LoadObject : MonoBehaviour
         material[x] = Instantiate(testMat, transform.position, transform.rotation);
         material[x].mainTexture = tex;
 
-        SpawnObject(material[x], index);
+        StartCoroutine(Delay());
+
+        IEnumerator Delay()
+        {
+            yield return new WaitForSeconds(2);
+            SpawnObject(material[x], index);
+        }
+
     }
 
     public void SpawnObject(Material mat, int index)
@@ -79,28 +88,11 @@ public class LoadObject : MonoBehaviour
         //GameObject obj = Instantiate(test[Random.Range(0,test.Length)], transform.position, transform.rotation);
 
         var rotate = Quaternion.Euler(-90, 0, 0);
-        GameObject obj = Instantiate(test[index], transform.position, rotate);
 
+        GameObject obj = Instantiate(test[index], transform.position, rotate);
         obj.AddComponent<MeshRenderer>();
         obj.GetComponent<MeshRenderer>().material = mat;
     }
 
-    ////public void ConvertToSprite()
-    ////{
-    ////    for (int i = 0; i < spriteTexture.Length; i++)
-    ////    {
-    ////        if (spriteTexture[i] != null)
-    ////        {
-    ////            string path = fileInfo[i].ToString(); ;
-    ////            spriteTexture[i].sprite = GetSpritefromImage(path);
-    ////            spriteTexture[i].preserveAspect = true;
-
-    ////        }
-    ////        else
-    ////        {
-    ////            Debug.LogWarning("Null references in EditableImages");
-    ////        }
-    ////    }
-    ////}
 
 }
