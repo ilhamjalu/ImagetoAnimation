@@ -173,6 +173,7 @@ GameObject:
   - component: {fileID: 1515191299741485837}
   - component: {fileID: 1336921515323026660}
   - component: {fileID: 8978904443492562461}
+  - component: {fileID: 8337304079366971879}
   m_Layer: 0
   m_Name: hELI
   m_TagString: Untagged
@@ -232,6 +233,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   end: 0
+  quaternion: {x: 0, y: 0, z: 0, w: 0}
+--- !u!23 &8337304079366971879
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183360545068601783}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2320647459215041254
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +286,7 @@ GameObject:
   - component: {fileID: 5672009414977058519}
   - component: {fileID: 6410274404237677731}
   - component: {fileID: 8178018720456006201}
+  - component: {fileID: 530775745505380027}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -313,6 +357,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &530775745505380027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2320647459215041254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481a3b7f82252a043a2d82e17c547cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 8337304079366971879}
+  child: {fileID: 8178018720456006201}
 --- !u!1 &3452904604527797444
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,6 +544,7 @@ GameObject:
   - component: {fileID: 6654334265397734623}
   - component: {fileID: 4272784858512065334}
   - component: {fileID: 7212682296491838251}
+  - component: {fileID: 5369975841085105873}
   m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
@@ -556,3 +615,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5369975841085105873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7368216387823938819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481a3b7f82252a043a2d82e17c547cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 8337304079366971879}
+  child: {fileID: 7212682296491838251}
