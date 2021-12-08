@@ -32,10 +32,12 @@ public class LoadObject : MonoBehaviour
     {
         Load("A", 0);
         Load("B", 1);
+        Load("C", 2);
     }
 
     public void Load(string folder, int index)
     {
+        Debug.Log(folder);
         string path = Application.streamingAssetsPath + "/";
         DirectoryInfo dir = new DirectoryInfo(path + folder);
 
@@ -92,7 +94,7 @@ public class LoadObject : MonoBehaviour
 
         //var rotate = Quaternion.Euler(-90, 0, 0);
 
-        GameObject obj = Instantiate(test[index], test[index].transform.position, Quaternion.identity);
+        GameObject obj = Instantiate(test[index], transform.position, Quaternion.identity);
         obj.AddComponent<MeshRenderer>();
         obj.GetComponent<MeshRenderer>().material = mat;
     }
