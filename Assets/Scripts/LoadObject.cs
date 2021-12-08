@@ -90,9 +90,9 @@ public class LoadObject : MonoBehaviour
     {
         //GameObject obj = Instantiate(test[Random.Range(0,test.Length)], transform.position, transform.rotation);
 
-        var rotate = Quaternion.Euler(-90, 0, 0);
+        //var rotate = Quaternion.Euler(-90, 0, 0);
 
-        GameObject obj = Instantiate(test[index], transform.position, rotate);
+        GameObject obj = Instantiate(test[index], test[index].transform.position, Quaternion.identity);
         obj.AddComponent<MeshRenderer>();
         obj.GetComponent<MeshRenderer>().material = mat;
     }

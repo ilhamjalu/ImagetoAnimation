@@ -9,6 +9,7 @@ public class ObjectScript : MonoBehaviour
     PathCreator pathCreator;
     public EndOfPathInstruction end;
     float speed, dis;
+    public Quaternion quaternion;
 
     // Start is called before the first frame update
     void Start()
@@ -23,14 +24,14 @@ public class ObjectScript : MonoBehaviour
         //transform.position += Vector3.forward * Time.deltaTime;
 
         MoveAuto();
-        transform.localRotation = Quaternion.Euler(-90,transform.eulerAngles.y,transform.eulerAngles.z);
+        transform.localRotation = Quaternion.Euler(quaternion.x, quaternion.y, quaternion.z);
     }
 
     void MoveAuto()
     {
         dis += speed * Time.deltaTime;
         transform.position = pathCreator.path.GetPointAtDistance(dis);
-        transform.localRotation = pathCreator.path.GetRotationAtDistance(dis);
+        //transform.localRotation = pathCreator.path.GetRotationAtDistance(dis);
     }
 
     //private void OnCollisionEnter(Collision collision)

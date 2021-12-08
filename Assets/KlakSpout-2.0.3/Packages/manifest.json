@@ -1,0 +1,10 @@
+{
+    "scopedRegistries": {
+        "name": "Keijiro",
+        "url": "https://registry.npmjs.com",
+        "scopes": [ "jp.keijiro" ]
+    },
+    "dependencies": {
+        "jp.keijiro.klak.spout": "2.0.3"
+    }
+}

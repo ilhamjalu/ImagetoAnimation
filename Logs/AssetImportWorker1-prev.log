@@ -1,0 +1,2845 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.1916; Version 1909; 64bit' Language: 'en' Physical Memory: 3979 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/PENS/PROJECT/ImagetoAnimation
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59290
+Successfully changed project path to: D:/PENS/PROJECT/ImagetoAnimation
+D:/PENS/PROJECT/ImagetoAnimation
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/PENS/PROJECT/ImagetoAnimation/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   
+    VRAM:     1989 MB
+    Driver:   20.19.15.4531
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003004 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1845ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (738ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4592ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (4240ms)
+			LoadAssemblies (1749ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (228ms)
+			SetupLoadedEditorAssemblies (694ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1570 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 5.093800 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.085100 ms MarkObjects: 4.687600 ms  DeleteObjects: 0.065600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sources/CAR SUV
+  artifactKey: Guid(1447a68c7c082f94785333f2c3ea5d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV using Guid(1447a68c7c082f94785333f2c3ea5d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369b8743da6e79c438b0d5ed0cea00b3') in 0.021871 seconds 
+  Import took 0.027344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 5.276073 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 5.282920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060159 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.134108 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.139313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014459 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.176123 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.183158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016538 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.217783 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.221538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042992 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.128665 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.133478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015420 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.126724 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.132264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026254 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.131989 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.137519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007404 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.131365 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.136938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009636 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.125878 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.131323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010297 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.177668 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.183104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064630 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.163398 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.168180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077515 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.127854 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.132853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013023 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.128785 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.134468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023709 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.122865 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.127553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014995 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.118514 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.122850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018190 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.124165 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.129364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012620 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.122077 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.127382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019435 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.169585 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.177374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072463 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.179450 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.186980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064370 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.169103 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.173738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085123 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.175119 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.180200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111824 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.182685 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.187443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063501 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.146560 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.152483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026738 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.142446 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.146663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013583 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.130267 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.135148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013983 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.125301 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.129759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008350 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.130300 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.135757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012314 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.134959 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.140301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057344 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133700 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.140003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009966 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.140861 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.147386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009892 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133006 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.138112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009555 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.129786 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.135488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012294 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.145700 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.150316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005431 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.200709 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.205825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019002 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.150827 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.156626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012980 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.185796 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.190070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069921 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.187519 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.192881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010828 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.130089 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.135610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052087 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.125556 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.135799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013248 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.120941 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.125330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018971 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.131463 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.138565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017870 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133467 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.138687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007093 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.132760 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.137749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010172 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.125780 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.131145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009998 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.138277 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.142969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015369 seconds.
+  path: Assets/Sources/CAR SUV/CAR SUV.blend
+  artifactKey: Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV/CAR SUV.blend using Guid(63c91fcbe8e57c44a90cdd3366f186fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.144778 seconds  code(4) message(Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/sources/car suv/car suv.blend in SourceAssetDB has modification time of '2021-12-06T18:46:59.6108355Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff657b158fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff657b1df99 (Unity) StackWalker::ShowCallstack
+0x00007ff65903c34c (Unity) GetStacktrace
+0x00007ff65921f3e7 (Unity) GetAssetHashAndValidate
+0x00007ff65921a5b3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff659218522 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6591f299d (Unity) CreateAssetVersionBuilder
+0x00007ff6591f969d (Unity) ImportToObjects
+0x00007ff6591f84b8 (Unity) ImportAsset
+0x00007ff65915a2b8 (Unity) AssetImportWorker::Import
+0x00007ff6591ad64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff6592518d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff659253a30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6592571be (Unity) asio::io_service::run
+0x00007ff6591da40b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6591da460 (Unity) RunAssetImporterV2
+0x00007ff6586a19a6 (Unity) Application::InitializeProject
+0x00007ff6590498b2 (Unity) WinMain
+0x00007ff65ae9d3b6 (Unity) __scrt_common_main_seh
+0x00007fff834f7c24 (KERNEL32) BaseThreadInitThunk
+0x00007fff8484d721 (ntdll) RtlUserThreadStart
+
+  Import took 0.149937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.619824 seconds.
+  path: Assets/Animator
+  artifactKey: Guid(53e8ac5403a1f034886c8905773475b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator using Guid(53e8ac5403a1f034886c8905773475b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828009514627699db602da4ad16a3a46') in 0.379208 seconds 
+  Import took 0.425305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.461947 seconds.
+  path: Assets/Animator/Car Suv.controller
+  artifactKey: Guid(93fef61af2a815f44a3f7420e60b2b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Car Suv.controller using Guid(93fef61af2a815f44a3f7420e60b2b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43395f17c8e6e265a9b39a12b027ed9') in 0.059377 seconds 
+  Import took 0.066388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.440077 seconds.
+  path: Assets/Sources/CAR SUV.fbx
+  artifactKey: Guid(26803a7d00a054b41adf426b147beb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV.fbx using Guid(26803a7d00a054b41adf426b147beb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22ccfe4349d89d6a937820ca95a6e11') in 0.292882 seconds 
+  Import took 0.660464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.005440 seconds.
+  path: Assets/Sources/CAR SUV.fbx
+  artifactKey: Guid(26803a7d00a054b41adf426b147beb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/CAR SUV.fbx using Guid(26803a7d00a054b41adf426b147beb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e92fdd75eb906ed63cd81c9e651d36a') in 0.196048 seconds 
+  Import took 0.214103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1529.294896 seconds.
+  path: Assets/KlakSpout-2.0.3/Assets/Shader/Alpha.mat
+  artifactKey: Guid(2e159dec22cd1174d99e5c2f70f07e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KlakSpout-2.0.3/Assets/Shader/Alpha.mat using Guid(2e159dec22cd1174d99e5c2f70f07e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec50075138352ff1bb052c41a3ed72f4') in 0.672218 seconds 
+  Import took 0.739595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/PathCreator/Examples/Materials/Blue.mat
+  artifactKey: Guid(5c270a73328a99e439fec44a0cf3a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Blue.mat using Guid(5c270a73328a99e439fec44a0cf3a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b664c7dd88986ce3a79fc517cc570b') in 0.249386 seconds 
+  Import took 0.274028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/KlakSpout-2.0.3/Assets/Shader/Gradient.mat
+  artifactKey: Guid(c01d1eeee63acea418bafad09e507872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KlakSpout-2.0.3/Assets/Shader/Gradient.mat using Guid(c01d1eeee63acea418bafad09e507872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb31374dce47e08dc8e52ad7e801d2e6') in 0.157305 seconds 
+  Import took 0.163719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sources/klrg3.fbx
+  artifactKey: Guid(8ff4419db69f9b241bb72e63c38e3295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/klrg3.fbx using Guid(8ff4419db69f9b241bb72e63c38e3295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e5d9c16194ab9af059c2871bbb033b') in 1.086628 seconds 
+  Import took 1.131081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/PathCreator/Examples/Materials/Road.mat
+  artifactKey: Guid(b5df4735192845740bd11076dc9cdc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Road.mat using Guid(b5df4735192845740bd11076dc9cdc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950c3a241022a565835987afa0eee0ee') in 0.182327 seconds 
+  Import took 0.212699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/PathCreator/Examples/Materials/Green.mat
+  artifactKey: Guid(9ca80467a033e954a8b9ad8601d6f4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Green.mat using Guid(9ca80467a033e954a8b9ad8601d6f4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655c9087263bc56ae4bf4d003bd8ffbb') in 0.185437 seconds 
+  Import took 0.233720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/PathCreator/Examples/Materials/Black.mat
+  artifactKey: Guid(69561553b86bde34da494d1ffed3ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Black.mat using Guid(69561553b86bde34da494d1ffed3ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381bafcbe32d2181ad0fa711fa376f36') in 0.158787 seconds 
+  Import took 0.182079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/Sources/klrg2.fbx
+  artifactKey: Guid(c4f744c48c8a23f4d9b29df6bbfe5753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/klrg2.fbx using Guid(c4f744c48c8a23f4d9b29df6bbfe5753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17a880e5b3d95a47c9eba169e3b287a') in 1.397513 seconds 
+  Import took 1.409442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Materials/Road.mat
+  artifactKey: Guid(6b5f68204afe01649a84469e497dbb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Road.mat using Guid(6b5f68204afe01649a84469e497dbb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d4e885ea4689c715733a0c643bc308') in 0.176333 seconds 
+  Import took 0.238832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001892 seconds.
+  path: Assets/Sources/sedan1.fbx
+  artifactKey: Guid(1e9b65b70af59e043a5e0b920dda74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/sedan1.fbx using Guid(1e9b65b70af59e043a5e0b920dda74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dba10cec52b4b5ac70f06343e8aa31') in 1.675701 seconds 
+  Import took 1.688709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/PathCreator/Examples/Materials/Brown.mat
+  artifactKey: Guid(d5b3a558a1e7f4a4182b166bb2f27cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Brown.mat using Guid(d5b3a558a1e7f4a4182b166bb2f27cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb544d644882f19aba7934a6d88fbec1') in 0.215625 seconds 
+  Import took 0.240731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/PathCreator/Examples/Materials/Dark Grey.mat
+  artifactKey: Guid(407e3de4fbbcf4a99b17bf5aac2d28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Dark Grey.mat using Guid(407e3de4fbbcf4a99b17bf5aac2d28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a6027ad94edb872db64d96d25b182a') in 0.125826 seconds 
+  Import took 0.154697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/PathCreator/Examples/Materials/Red.mat
+  artifactKey: Guid(01763a1c279a5cd4d8f897f6b6cdbae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Red.mat using Guid(01763a1c279a5cd4d8f897f6b6cdbae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3ab6a7fbc2d8294d5633c72a93da55') in 0.156453 seconds 
+  Import took 0.175062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001351 seconds.
+  path: Assets/Sources/klrg1.fbx
+  artifactKey: Guid(d488b9d5bef63004e8223ac36f64dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/klrg1.fbx using Guid(d488b9d5bef63004e8223ac36f64dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3deb7ce44398a2e8fd22ac79575ed108') in 2.589120 seconds 
+  Import took 2.656382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Materials/TestMAterial.mat
+  artifactKey: Guid(d17091a1a2e232f4d817c7fc09bf31d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TestMAterial.mat using Guid(d17091a1a2e232f4d817c7fc09bf31d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ad7633e9bf1b3063d69cf9751f811c') in 0.198517 seconds 
+  Import took 0.230698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/KlakSpout-2.0.3/Assets/Shader/Receiver.mat
+  artifactKey: Guid(7d717d2aa323e5c469963ea9c0a6cbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KlakSpout-2.0.3/Assets/Shader/Receiver.mat using Guid(7d717d2aa323e5c469963ea9c0a6cbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d24a9aa937525146255866d6cf20289') in 0.120127 seconds 
+  Import took 0.198079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Sources/bis1.fbx
+  artifactKey: Guid(5860d6f45f1e14641a4690527d88ed03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/bis1.fbx using Guid(5860d6f45f1e14641a4690527d88ed03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c82c52153da1ecd8113f0f4568f0d73') in 4.927525 seconds 
+  Import took 5.043386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/PathCreator/Examples/Materials/Road Underside.mat
+  artifactKey: Guid(c1d8d882244c5344fa86a8fd23246f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Materials/Road Underside.mat using Guid(c1d8d882244c5344fa86a8fd23246f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abe80c44af374a653857e3bbdb4107b') in 0.129436 seconds 
+  Import took 0.203699 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
