@@ -21,5 +21,6 @@ public class OpenFile : MonoBehaviour
     {
         Debug.Log("TOMBOL");
         EditorUtility.RevealInFinder(Application.streamingAssetsPath + "/" + folder);
+        //Application.OpenURL(Application.streamingAssetsPath + "/" + folder);
     }
 }
