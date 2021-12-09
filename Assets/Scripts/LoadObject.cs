@@ -35,9 +35,7 @@ public class LoadObject : MonoBehaviour
         Load("Helicopter", 1);
         Load("Truck", 2);
         Load("Truck Tangki", 3);
-        //Load("Helicopter", 1);
-        //Load("Truck", 2);
-        //Load("Truck Tangki", 3);
+        Load("Truck PD", 4);
     }
 
     public void Load(string folder, int index)
