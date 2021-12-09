@@ -20,7 +20,7 @@ public class OpenFile : MonoBehaviour
     public void ShownInExplore(string folder)
     {
         Debug.Log("TOMBOL");
-        EditorUtility.RevealInFinder(Application.streamingAssetsPath + "/" + folder);
-        //Application.OpenURL(Application.streamingAssetsPath + "/" + folder);
+        //EditorUtility.RevealInFinder(Application.streamingAssetsPath + "/" + folder + "/");
+        Application.OpenURL(Application.streamingAssetsPath + "/" + folder);
     }
 }

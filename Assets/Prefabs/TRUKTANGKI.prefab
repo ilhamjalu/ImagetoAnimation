@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1204787548729316227}
   - component: {fileID: 6910613750535987719}
   - component: {fileID: 4385327149952605731}
-  - component: {fileID: 7995562811993970635}
   m_Layer: 0
   m_Name: MEWARNAI PTPALL.002
   m_TagString: Untagged
@@ -82,20 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7995562811993970635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 856698421414424838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 481a3b7f82252a043a2d82e17c547cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parent: {fileID: 0}
-  child: {fileID: 0}
 --- !u!1 &2108270604624086184
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +284,6 @@ GameObject:
   - component: {fileID: 3084444250985375769}
   - component: {fileID: 5934585105148193014}
   - component: {fileID: 1638490558779875254}
-  - component: {fileID: 7995562811993970628}
   m_Layer: 0
   m_Name: MEWARNAI PTPALL.003
   m_TagString: Untagged
@@ -370,20 +354,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7995562811993970628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6717715739589045576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 481a3b7f82252a043a2d82e17c547cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parent: {fileID: 0}
-  child: {fileID: 0}
 --- !u!1 &7076452240754764654
 GameObject:
   m_ObjectHideFlags: 0

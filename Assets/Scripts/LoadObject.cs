@@ -14,8 +14,6 @@ public class LoadObject : MonoBehaviour
     public Material testMat;
     public Material[] material;
 
-    float nextFire = 0.0f, fireRate = 0.8f;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -25,14 +23,21 @@ public class LoadObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            nameCheck.Clear();
+        }
     }
 
     public void ScanFolder()
     {
-        Load("A", 0);
-        Load("B", 1);
-        Load("C", 2);
+        Load("Mobil", 0);
+        Load("Helicopter", 1);
+        Load("Truck", 2);
+        Load("Truck Tangki", 3);
+        //Load("Helicopter", 1);
+        //Load("Truck", 2);
+        //Load("Truck Tangki", 3);
     }
 
     public void Load(string folder, int index)
@@ -51,20 +56,40 @@ public class LoadObject : MonoBehaviour
             StartCoroutine(Delay());
             IEnumerator Delay()
             {
-                foreach (var info in fileInfo)
+                for(int i = 0; i < fileInfo.Length; i++)
                 {
-                    //StartCoroutine(Delay());
-                    if (nameCheck.Contains(info.ToString()) != true)
+                    if (nameCheck.Contains(fileInfo[i].ToString()) != true)
                     {
-                        nameCheck.Add(info.ToString());
+                        nameCheck.Add(fileInfo[i].ToString());
+                        //int i = nameCheck.Add(info.ToString().Length);
 
-                        ImageLoader(info.ToString(), x, index);
+                        //for(int x = 0; x <= info.ToString().Length; x++)
+                        //{
+                        ImageLoader(fileInfo[i].ToString(), x, index);
+                        //}
 
                         x++;
+                        yield return new WaitForSeconds(2);
                     }
-                    Debug.Log(info);
-                    yield return new WaitForSeconds(2);
                 }
+                //foreach (var info in fileInfo)
+                //{
+                //    //StartCoroutine(Delay());
+                //    if (nameCheck.Contains(info.ToString()) != true)
+                //    {
+                //        nameCheck.Add(info.ToString());
+                //        //int i = nameCheck.Add(info.ToString().Length);
+
+                //        //for(int x = 0; x <= info.ToString().Length; x++)
+                //        //{
+                //            ImageLoader(info.ToString(), x, index);
+                //        //}
+
+                //        x++;
+                //    }
+                //    Debug.Log(info);
+                //    yield return new WaitForSeconds(2);
+                //}
             }
             
         }
