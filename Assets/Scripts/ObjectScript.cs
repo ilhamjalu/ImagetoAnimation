@@ -14,7 +14,7 @@ public class ObjectScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pathCreator = GameObject.Find("PathCreator").GetComponent<PathCreator>();
+        pathCreator = GameObject.Find("PathCreator " + gameObject.name).GetComponent<PathCreator>();
         speed = 3f;
     }
 
