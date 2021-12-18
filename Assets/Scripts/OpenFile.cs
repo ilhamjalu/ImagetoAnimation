@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEditor;
 
 public class OpenFile : MonoBehaviour
@@ -22,5 +23,10 @@ public class OpenFile : MonoBehaviour
         Debug.Log("TOMBOL");
         //EditorUtility.RevealInFinder(Application.streamingAssetsPath + "/" + folder + "/");
         Application.OpenURL(Application.streamingAssetsPath + "/" + folder);
+    }
+
+    public void ChangeScene(string scene)
+    {
+        SceneManager.LoadScene(scene);
     }
 }
